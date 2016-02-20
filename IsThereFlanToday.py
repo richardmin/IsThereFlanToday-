@@ -74,12 +74,13 @@ class FlanScraper(object):
 	def processFlans(self): 
 		urls = self.get_Flans()
 		prepend = ''
-		
+		flanFound = False
 		for url in urls:
-			print self.get_Flanpage(url)
-			prepend = prepend + '\n'
+			flanFound = True
+			prepend = self.get_Flanpage(url) + '\n'
+		print flanFound
 		with file('theresflantoday.txt', 'r') as original: data = original.read()
-		with file('theresflantoday.txt', 'w') as modified: modified.write(prepend + data)
+		with file('theresflantoday.txt', 'w') as modified: modified.write(prepend)
 
 			
 if __name__ == '__main__':
