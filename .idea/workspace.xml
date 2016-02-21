@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f1aac09-6419-43aa-8ce2-2f45683ed9ba" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThereIsNoFlan.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TheresIsFlan.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IsThereFlanToday.py" afterPath="$PROJECT_DIR$/IsThereFlanToday.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theresflantoday.txt" afterPath="$PROJECT_DIR$/theresflantoday.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Flan.css" afterPath="$PROJECT_DIR$/Flan.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheresIsFlan.html" afterPath="$PROJECT_DIR$/TheresIsFlan.html" />
     </list>
     <ignored path="FlanDetector.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,8 +27,8 @@
       <file leaf-file-name="TheresIsFlan.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TheresIsFlan.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.125">
-              <caret line="5" column="59" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="59" />
+            <state vertical-scroll-proportion="-9.375">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -39,8 +37,8 @@
       <file leaf-file-name="Flan.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Flan.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.06198347">
-              <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.18595041">
+              <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -262,16 +260,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TheresIsFlan.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.125">
-          <caret line="5" column="59" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="59" />
+        <state vertical-scroll-proportion="-9.375">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Flan.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.06198347">
-          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.18595041">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
           <folding />
         </state>
       </provider>
