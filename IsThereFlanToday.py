@@ -79,6 +79,9 @@ class FlanScraper(object):
 			flanFound = True
 			prepend = self.get_Flanpage(url) + '\n'
 		print flanFound
+
+		# if flanFound:
+		# else:
 		with file('theresflantoday.txt', 'r') as original: data = original.read()
 		with file('theresflantoday.txt', 'w') as modified: modified.write(prepend)
 
