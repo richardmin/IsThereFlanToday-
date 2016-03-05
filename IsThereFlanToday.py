@@ -81,11 +81,11 @@ class FlanScraper(object):
 		print flanFound
 
 		if flanFound:
-			with file('Flan.html', 'r') as original: data = original.read()
-			with file('Output.html', 'w') as modified: modified.write(original)
-		else:
 			with file('NoFlan.html', 'r') as original: data = original.read()
-			with file('Output.html', 'w') as modified: modified.write(original)
+			with file('Output.html', 'w') as modified: modified.write(data)
+		else:
+			with file('Flan.html', 'r') as original: data = original.read()
+			with file('Output.html', 'w') as modified: modified.write(data)
 
 			
 if __name__ == '__main__':
