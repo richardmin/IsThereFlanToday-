@@ -80,10 +80,12 @@ class FlanScraper(object):
 			prepend = self.get_Flanpage(url) + '\n'
 		print flanFound
 
-		# if flanFound:
-		# else:
-		with file('theresflantoday.txt', 'r') as original: data = original.read()
-		with file('theresflantoday.txt', 'w') as modified: modified.write(prepend)
+		if flanFound:
+			with file('Flan.html', 'r') as original: data = original.read()
+			with file('Output.html', 'w') as modified: modified.write(original)
+		else:
+			with file('NoFlan.html', 'r') as original: data = original.read()
+			with file('Output.html', 'w') as modified: modified.write(original)
 
 			
 if __name__ == '__main__':
