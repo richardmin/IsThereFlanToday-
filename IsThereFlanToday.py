@@ -64,7 +64,6 @@ class FlanScraper(object):
 			if line.find('a').contents[0] == "Caramel Flan":
 				return "there is flan today"
 		
-		# print "there is no flan today"
 		return "there is no flan today"
 		
 	def get_Flanpage(self, url):
@@ -90,5 +89,4 @@ class FlanScraper(object):
 			
 if __name__ == '__main__':
 	scraper = FlanScraper()
-	# releases = scraper.get_Flans()
 	scraper.processFlans()
